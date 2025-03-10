@@ -1,1 +1,3 @@
-let todos = ([1,2,3,4,5,6]); 
+function filterEvenNumbers (numbers) {
+    return numbers.filter(number => number % 2 === 0);
+}
